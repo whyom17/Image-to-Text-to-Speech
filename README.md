@@ -47,21 +47,23 @@ A simple Python desktop application that extracts text from images and converts 
 1. **Install Tesseract OCR**  
    Download and install from [here](https://github.com/tesseract-ocr/tesseract).  
    Update the following line in your script to match your installation path:
-'''bash
+```bash
 pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\tesseract.exe'
+```
 
 2. **Install Python Libraries**
-'''bash
+```bash
 pip install opencv-python pytesseract gTTS pygame
-
+```
 3. **Clone the Repository**
-'''bash
+```bash
 git clone https://github.com/yourusername/image-text-to-speech.git
 cd image-text-to-speech
-
+```
 4. **Run the Application**
-'''bash
+```bash
 python app.py
+```
    
 ## Acknowledgements
 
